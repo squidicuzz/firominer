@@ -29,7 +29,8 @@ constexpr static uint32_t kRevision = 23;
  * See "./lib/ethash/ethash.cpp" for increase size(s)
  */
 
-constexpr static uint32_t kEpoch_length = 1300;  // Firo
+//constexpr static uint32_t kEpoch_length = 1300;  // Firo
+constexpr static uint32_t kEpoch_length = 3240;  // StakeCube
 
 constexpr static uint32_t kLight_cache_item_size = 64;
 constexpr static uint32_t kFull_dataset_item_size = 128;
