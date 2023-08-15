@@ -1,6 +1,6 @@
 #include "ApiServer.h"
 
-#include <firominer/buildinfo.h>
+#include <sccminer/buildinfo.h>
 
 #include <libethcore/Farm.h>
 

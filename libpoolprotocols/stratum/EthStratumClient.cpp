@@ -1,4 +1,4 @@
-#include <firominer/buildinfo.h>
+#include <sccminer/buildinfo.h>
 #include <libdevcore/Log.h>
 #include <libpoolprotocols/stratum/arith_uint256.h>
 #include <libcrypto/ethash.hpp>

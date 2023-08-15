@@ -17,7 +17,7 @@
 
 #include <CLI/CLI.hpp>
 
-#include <firominer/buildinfo.h>
+#include <sccminer/buildinfo.h>
 #include <condition_variable>
 
 #ifndef ENABLE_VIRTUAL_TERMINAL_PROCESSING
