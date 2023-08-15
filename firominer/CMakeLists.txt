@@ -16,7 +16,7 @@ endif()
 hunter_add_package(CLI11)
 find_package(CLI11 CONFIG REQUIRED)
 
-target_link_libraries(firominer PRIVATE ethcore poolprotocols devcore firominer-buildinfo CLI11::CLI11 Boost::filesystem Boost::system)
+target_link_libraries(firominer PRIVATE ethcore poolprotocols devcore sccminer-buildinfo CLI11::CLI11 Boost::filesystem Boost::system)
 
 if(ETHDBUS)
 	find_package(PkgConfig)
