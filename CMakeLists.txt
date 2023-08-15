@@ -103,7 +103,7 @@ if (APICORE)
 	add_subdirectory(libapicore)
 endif()
 
-add_subdirectory(firominer)
+add_subdirectory(sccminer)
 
 
 if(WIN32)
