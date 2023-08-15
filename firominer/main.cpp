@@ -1300,7 +1300,7 @@ int main(int argc, char** argv)
 #endif
 
     // Always out release version
-    auto* bi = firominer_get_buildinfo();
+    auto* bi = sccminer_get_buildinfo();
     cout << endl
          << endl
          << "firominer " << bi->project_version << endl
