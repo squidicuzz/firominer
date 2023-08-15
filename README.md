@@ -1,8 +1,13 @@
-# firominer (ethminer fork with ProgPoW implementation)
+# sccminer (a firominer fork)
+
+Forked from: [firominer](https://github.com/firoorg/firominer) (ethminer fork with ProgPoW implementation)
 
 > firopow miner with OpenCL, CUDA and stratum support
 
 **firominer** is an ProgPoW GPU mining worker: with firominer you can mine Firo, which relies on an ProgPoW-based Proof of Work thus including Ethereum ProgPoW and others. This is the actively maintained version of firominer. It originates from the [ethminer](https://github.com/ethereum-mining/ethminer) project. Check the original [ProgPoW](https://github.com/ifdefelse/progpow) implementation and [EIP-1057](https://eips.ethereum.org/EIPS/eip-1057) for specification.
+
+## StakeCube Feature Support
+* DAG Epoch length Changed to `3240`
 
 ## Features
 
@@ -131,7 +136,7 @@ The value of these parameters has been tweaked to use 0.9.4 specs with a PROGPOW
 | `PROGPOW_CNT_CACHE`   | `12`  | `11`  | `11`  |
 | `PROGPOW_CNT_MATH`    | `20`  | `18`  | `18`  |
 
-Epoch length = 1300 blocks
+Epoch length = ~~1300~~ 3240 blocks
 
 ## Maintainers & Authors
 

@@ -20,7 +20,7 @@ HunterGate(
 )
 
 
-project(firominer)
+project(sccminer)
 set(PROJECT_VERSION 1.2.4)
 
 
